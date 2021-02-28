@@ -1,0 +1,67 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap');
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+}
+
+.button {
+	background-color: #2A4CF5;
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+	padding: 7px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.buttonLight {
+	background-color: #2AB7F5;
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+	padding: 7px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.buttonDelete {
+	background-color: #F01F1A;
+	color: #fff;
+	border: 0;
+	border-radius: 5px;
+	padding: 7px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+table {
+	margin-top: 30px;
+	border-collapse: collapse;
+}
+
+table th {
+	border: 1px solid #ccc;
+	padding: 10px;
+	text-align: left;
+	background-color: #317CDE;
+	color: #fff;
+}
+
+table td {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.boldSpan{
+	font-weight: 700;
+}
+
+.return {
+	margin-top: 5px;
+}
+
+input {
+	margin-bottom: 10px;
+}

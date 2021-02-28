@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Treinamento</title>
+<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<h1>Adicionar Pessoa</h1>
+	<form name="frmPeople" action="addPeople">
+		<span class="boldSpan">Nome: </span>
+		<br/>
+		<input type="text" name="peopleFirstName">
+		<br/>
+		<span class="boldSpan">Sobrenome: </span>
+		<br/>
+		<input type="text" name="peopleLastName">
+		<br/>
+		<input type="button" class="button" value="Adicionar" onclick="validatePeople()">
+	</form>
+	<form action="mainPeople">
+		<input type="submit" class="button" value="Voltar">
+	</form>
+	<script src="scripts/validator.js"></script>
+</body>
+</html>

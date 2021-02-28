@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Treinamento</title>
+<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<h1>Adicionar Espaço de Café</h1>
+	<form name="frmCoffee" action="addCoffee">
+		<span class="boldSpan">Nome: </span>
+		<br/>
+		<input type="text" name="coffeeName">
+		<br/>
+		<input type="button" class="button" value="Adicionar" onclick="validateCoffee()">
+	</form>
+	<form action="mainCoffee">
+		<input type="submit" class="button" value="Voltar">
+	</form>
+<script src="scripts/validator.js"></script>
+</body>
+</html>
