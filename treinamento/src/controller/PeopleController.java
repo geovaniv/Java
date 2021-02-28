@@ -37,7 +37,6 @@ public class PeopleController extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		response.getWriter().append("Served at: ").append(request.getContextPath());
 		String action = request.getServletPath();
 
 		if (action.equals("/mainPeople")) {
@@ -112,9 +111,11 @@ public class PeopleController extends HttpServlet {
 				response.sendRedirect("mainPeople");
 			} else {
 				people.setIdFirstRoom(roomList.get(0).getRoomId());
+				dao.addPeople(people);
+				response.sendRedirect("mainPeople");
 			}
 		} else {
-			//"É necessário que estejam cadastradas pelo menos uma Sala de Evento e um Espaço de Café!";
+			response.sendRedirect("mainPeople");
 		}
 	}
 

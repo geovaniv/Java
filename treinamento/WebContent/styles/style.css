@@ -58,6 +58,11 @@ table td {
 	font-weight: 700;
 }
 
+.spanAlert {
+	color: red;
+	font-size: .9em;
+}
+
 .return {
 	margin-top: 5px;
 }

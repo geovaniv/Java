@@ -16,6 +16,7 @@ ArrayList<People> list = (ArrayList<People>) request.getAttribute("allPeople");
 <h1>Pessoas</h1>
 	<a href="addPeople.html" class="button">Adicionar Pessoa</a>
 	<a href="index.html" class="button">Voltar</a>
+	<p class="spanAlert">Para adicionar uma pessoa, é necessário que pelo menos uma Sala de Evento esteja cadastrada!</p>
 	<table>
 		<thead>
 			<tr>
